@@ -7,8 +7,6 @@
 }
 
 .eyes {
-    display: flex;
-    justify-content: center;
     gap: 20px;
     padding: 40px;
 }
@@ -30,20 +28,30 @@
     border-radius: 100px;
 }
 
-.mouth-container {
-    display: flex;
-    justify-content: center;
+.eye:hover {
+    scale: 110%;
 }
 
-.mouth {
+.mouth1 {
     background-color: black;
     height: 20px;
     width: 40px;
     border-radius: 10px;
 }
 
+.mouth1:hover {
+    height: 50px;
+    width: 50px;
+}
+
+.mouth2 {
+    background-color: black;
+    height: 30px;
+    width: 40px;
+    border-radius: 20px;
+}
+
 .centered-div {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
